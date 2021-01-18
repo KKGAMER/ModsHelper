@@ -34,7 +34,8 @@
     "weather-js": "^2.0.0",
     "youtube-api": "^3.0.1",
     "ytdl-core": "^4.4.3",
-    "ytdl-core-discord": "https://github.com/CTK-WARRIOR/ytdl-core-discord"
+    "ytdl-core-discord": "https://github.com/CTK-WARRIOR/ytdl-core-discord",
+    "music-js": "^1.1.0"
   },
   "engines": {
     "node": "12.x"

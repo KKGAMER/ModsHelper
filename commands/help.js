@@ -7,7 +7,6 @@ module.exports = {
   aliases: ["h"],
   category: "Utility",
   execute(client, message, args) {
-    let music = [];
     let utility = [];
     let fun = [];
     let moderation = [];
@@ -39,9 +38,6 @@ module.exports = {
       }
     } else {
       client.commands
-        .filter(cmd => cmd.category === "Music")
-        .forEach(cmd => music.push(cmd.name));
-      client.commands
         .filter(cmd => cmd.category === "Utility")
         .forEach(cmd => utility.push(cmd.name));
       client.commands
@@ -56,11 +52,6 @@ module.exports = {
         .setThumbnail(client.user.displayAvatarURL())
         .setColor(COLOR)
         .setDescription(`♪ Command list of ${client.user.username}.`)
-        .addField(
-          `➜  Music Commands`,
-          "``" + prefix + music.join("``, " + "``" + prefix) + "``",
-          true
-        )
         .addField(
           `➜  Utility Commands`,
           "``" + prefix + utility.join("``, " + "``" + prefix) + "``",

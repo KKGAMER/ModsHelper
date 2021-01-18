@@ -1,15 +1,15 @@
 {
-  "PREFIX": "!", //change prefix according to u rn its !
-  "TOKEN": "pastetokenhere", //paste your token here
-  "YOUTUBE_API_KEY": "Your YouTube Api key", //api key here
+  "PREFIX": "!",
+  "TOKEN": "NzM4Mzc2NjYzMjA4OTUxODk4.XyLA2g.2dMVk4GPX4Eb7XCavxxa_khcmc0",
+  "YOUTUBE_API_KEY": "AIzaSyCFwW04VYIpbmx_zUt-ZdPLwjR4hPSWYJk",
   "COLOR": "#00ffff", 
       "nodes": [
-        { "id": "default", "host": "localhost", "port": 2333, "password": "youshallnotpass" } //dont edit this
+        { "id": "default", "host": "localhost", "port": 2333, "password": "youshallnotpass" }
     ],
   
-  "inviteURL": "Bots Invite link create using discord dev portal", // paste ur bots invite link here
+  "inviteURL": "https://discord.com/api/oauth2/authorize?client_id=738376663208951898&permissions=8&scope=bot",
  "developers" : [ 
-"devnamehere1", 
-"devnamehere"
+"KK", 
+"Dark Killer#6969"
 ]
 }
